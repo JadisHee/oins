@@ -1,4 +1,5 @@
 <launch>
     <node pkg="robot_localization" type="ekf_localization_node" name="ekf_se" clear_params="true">
-        <rosparam command="load" file="~/work/oins/src/ekf_fusion/param/ekf_template.yaml">
+        <rosparam command="load" file="/home/jadis/work/oins/src/ekf_fusion/param/ekf_template.yaml" />
+    </node>
 </launch>
