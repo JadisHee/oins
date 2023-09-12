@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="bw_ros_serial" name="fusion_main" type="fusion_main" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="bw_ros_serial" name="ins_ros" type="ins_ros" output="screen">
+    </node>
+</launch>
